@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Case Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="title">Case Converter</div>
+            <textarea autofocus placeholder="Start typing..."></textarea>
+            <button
+                    id="upper-case"
+                    title = "All letter are Uppercase">
+                Upper Case
+            </button>
+            <button
+                    id="lower-case"
+                    title="All letter are lowercase">
+                Lower Case
+            </button>
+            <button
+                    id="proper-case"
+                    title="Only first letter of word is uppercase">
+                Proper Case
+            </button>
+            <button
+                    id="sentence-case"
+                    title="Only first letter of sentence is uppercase">
+                Sentence Case
+            </button>
+            <button
+                    id="save-text-file"
+                    class="save"
+                    title="save the result to text.txt"
+                    disabled>
+                Save
+            </button>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
